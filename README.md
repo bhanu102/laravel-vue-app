@@ -1,25 +1,32 @@
+# Laravel-Vuejs
+
 Building Laravel Vuejs CRUD Single Page Application
 
-composer create-project laravel/laravel laravel-vue-crud --prefer-dist
+## Deployment
 
-php artisan make:model Product -m
+```composer create-project laravel/laravel laravel-vue-crud --prefer-dist```
 
-php artisan migrate
+```php artisan make:model Product -m```
 
-php artisan make:controller ProductController
+```php artisan migrate```
 
-composer require laravel/ui
+```php artisan make:controller ProductController```
 
-php artisan ui vue
+```composer require laravel/ui```
 
-npm install vue-router vue-axios
+```php artisan ui vue```
 
-npm install
+```npm install vue-router vue-axios```
 
-npm run watch
+```npm install```
 
-php artisan serve
+```npm run watch```
 
-http://127.0.0.1:8000
+```php artisan serve```
+ - Access the app at
+
+```http://127.0.0.1:8000```
+
+## Output
 
 ![image](https://user-images.githubusercontent.com/75179972/189295788-37e7b952-c8aa-429f-ba55-8a67cceba70e.png)
